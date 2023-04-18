@@ -13,10 +13,7 @@ body {
     background-color: greenyellow;
 }
 
-a {
-    margin-left: 10px;
-    font-size: 20px;
-}
+
 
 @media screen and (max-width: 768px) {
     .nav-menu {
@@ -29,3 +26,11 @@ a {
         font-size: 10px;
     }
   }
+
+@media screen and (min-width: 769px) {
+    a {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    }
+  
